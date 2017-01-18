@@ -15210,8 +15210,8 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CERAMIC-100UF-6.3V-20%-X5R(1206)" prefix="C" uservalue="yes">
-<description>302010183</description>
+<deviceset name="CERAMIC-10UF-25V-10%-X5R(1206)" prefix="C" uservalue="yes">
+<description>302010181</description>
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -15223,8 +15223,8 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MPN" value="GRM31CR60J107ME39L" constant="no"/>
-<attribute name="VALUE" value="100uf"/>
+<attribute name="MPN" value="CC1206KKX5R8BB106" constant="no"/>
+<attribute name="VALUE" value="10uf"/>
 </technology>
 </technologies>
 </device>
@@ -15713,14 +15713,14 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <part name="J4" library="Seeed-Connector -2016" deviceset="GROVE-CONNECTOR-DIP-90D(4P-2.0)" device="" value="4P-2.0-90D"/>
 <part name="J1" library="Seeed-Connector -2016" deviceset="GROVE-CONNECTOR-DIP-90D(4P-2.0)" device="" value="4P-2.0-90D"/>
 <part name="J2" library="Seeed-Connector -2016" deviceset="GROVE-CONNECTOR-DIP-90D(4P-2.0)" device="" value="4P-2.0-90D"/>
+<part name="A2" library="scratch-ProtoPads" deviceset="JMP-2-NO" device="" value="NO"/>
 <part name="A1" library="scratch-ProtoPads" deviceset="JMP-2-NO" device="" value="NO"/>
-<part name="A0" library="scratch-ProtoPads" deviceset="JMP-2-NO" device="" value="NO"/>
 <part name="U$5" library="PatternAgents-Beautify" deviceset="GND" device=""/>
-<part name="R7" library="Seeed-Resistor-2016" deviceset="SMD-RES-10K-5%-1/10W(0603)" device="" value="10K 1/10W"/>
-<part name="R8" library="Seeed-Resistor-2016" deviceset="SMD-RES-10K-5%-1/10W(0603)" device="" value="10K 1/10W"/>
+<part name="R9" library="Seeed-Resistor-2016" deviceset="SMD-RES-10K-5%-1/10W(0603)" device="" value="10K 1/10W"/>
+<part name="R10" library="Seeed-Resistor-2016" deviceset="SMD-RES-10K-5%-1/10W(0603)" device="" value="10K 1/10W"/>
 <part name="U$4" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 <part name="C5" library="Seeed-Capacitor-2016" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" value="100nf"/>
-<part name="R9" library="Seeed-Resistor-2016" deviceset="SMD-RES-10K-5%-1/10W(0603)" device="" value="10K 1/10W"/>
+<part name="R11" library="Seeed-Resistor-2016" deviceset="SMD-RES-10K-5%-1/10W(0603)" device="" value="10K 1/10W"/>
 <part name="U$6" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 <part name="C7" library="Seeed-Capacitor-2016" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" value="100nf"/>
 <part name="FID3" library="TSOC-ESP8266-BASE" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
@@ -15730,21 +15730,21 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <part name="!RST" library="scratch-ProtoPads" deviceset="JMP-2-NO" device="" value="NO"/>
 <part name="U$3" library="thingSoC" deviceset="TSOC-PCB" device="-SINGLE"/>
 <part name="U$101" library="thingSoC" deviceset="TSOC-LOGO" device="-LRG"/>
-<part name="$$U$5" library="thingSoC" deviceset="TSOC-LOGO" device="-SMALL"/>
+<part name="$$U$2" library="thingSoC" deviceset="TSOC-LOGO" device="-SMALL"/>
 <part name="U$102" library="thingSoC" deviceset="TSOC-LOGO" device="-SMALL"/>
-<part name="$$U$4" library="thingSoC" deviceset="TSOC-LOGO" device="-SMALL"/>
+<part name="$$U$1" library="thingSoC" deviceset="TSOC-LOGO" device="-SMALL"/>
 <part name="R2" library="Seeed-Resistor-2016" deviceset="SMD-RES-1K-5%-1/10W(0603)" device="" value="1K 1/10W"/>
-<part name="R5" library="Seeed-Resistor-2016" deviceset="SMD-RES-10K-5%-1/10W(0603)" device="" value="10K 1/10W"/>
-<part name="R6" library="Seeed-Resistor-2016" deviceset="SMD-RES-10K-5%-1/10W(0603)" device="" value="10K 1/10W"/>
+<part name="R7" library="Seeed-Resistor-2016" deviceset="SMD-RES-10K-5%-1/10W(0603)" device="" value="10K 1/10W"/>
+<part name="R8" library="Seeed-Resistor-2016" deviceset="SMD-RES-10K-5%-1/10W(0603)" device="" value="10K 1/10W"/>
 <part name="U1" library="SparkFun-DigitalIC" deviceset="SX1509" device="" value="SX1509"/>
-<part name="R3" library="Seeed-Resistor-2016" deviceset="SMD-RES-47K-5%-1/10W(0603)" device="" value="47K"/>
+<part name="R4" library="Seeed-Resistor-2016" deviceset="SMD-RES-47K-5%-1/10W(0603)" device="" value="47K"/>
 <part name="C1" library="Seeed-Capacitor-2016" deviceset="CERAMIC-1UF-25V-10%-X7R(0603)" device="" value="1uf"/>
 <part name="U$7" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 <part name="U$8" library="PatternAgents-Beautify" deviceset="GND" device=""/>
-<part name="C3" library="Seeed-Capacitor-2016" deviceset="CERAMIC-100UF-6.3V-20%-X5R(1206)" device="" value="100uf"/>
+<part name="C3" library="Seeed-Capacitor-2016" deviceset="CERAMIC-10UF-25V-10%-X5R(1206)" device="" value="10uf"/>
 <part name="U$9" library="PatternAgents-Beautify" deviceset="GND" device=""/>
-<part name="R14" library="Seeed-Resistor-2016" deviceset="SMD-RES-1K-5%-1/10W(0603)" device="" value="1K 1/10W"/>
-<part name="R13" library="Seeed-Resistor-2016" deviceset="SMD-RES-1K-5%-1/10W(0603)" device="" value="1K 1/10W"/>
+<part name="R18" library="Seeed-Resistor-2016" deviceset="SMD-RES-1K-5%-1/10W(0603)" device="" value="1K 1/10W"/>
+<part name="R17" library="Seeed-Resistor-2016" deviceset="SMD-RES-1K-5%-1/10W(0603)" device="" value="1K 1/10W"/>
 <part name="IO3" library="Seeed-LED-2016" deviceset="SMD-LED-CLEAR-BLUE(0603)" device="" value="BLUE-0603"/>
 <part name="IO11" library="Seeed-LED-2016" deviceset="SMD-LED-CLEAR-GREEN(0603)" device="" value="GREEN-0603"/>
 <part name="IO7" library="Seeed-LED-2016" deviceset="LED-SMD-RED-DIFFUSED(0603)" device="" value="RED-0603"/>
@@ -15753,33 +15753,37 @@ The SX1509 is a complete ultra low voltage 1.2V to 3.6V General Purpose parallel
 <part name="L1" library="Seeed-Inductor-2016" deviceset="SMD-FERRITE-CHIP-120-OHM-500MA(0603)" device="" value="120OHM-500MA"/>
 <part name="L2" library="Seeed-Inductor-2016" deviceset="SMD-FERRITE-CHIP-120-OHM-500MA(0603)" device="" value="DNP"/>
 <part name="Q1" library="Seeed-Transistor-2016" deviceset="SMD-MOSFET-P-CH-8V-4.1A-CJ2305(SOT-23)" device="" value="CJ2305"/>
-<part name="Q3" library="Seeed-Transistor-2016" deviceset="SMD-MOSFET-N-CH-50V-200MA-BSS138W-7-F(SOT-23)" device="" value="BSS138W-7-F"/>
-<part name="R4" library="Seeed-Resistor-2016" deviceset="SMD-RES-47K-5%-1/10W(0603)" device="" value="47K"/>
+<part name="R3" library="Seeed-Resistor-2016" deviceset="SMD-RES-47K-5%-1/10W(0603)" device="" value="47K"/>
 <part name="C2" library="Seeed-Capacitor-2016" deviceset="CERAMIC-1UF-25V-10%-X7R(0603)" device="" value="1uf"/>
 <part name="U$10" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 <part name="U$11" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 <part name="Q2" library="Seeed-Transistor-2016" deviceset="SMD-MOSFET-P-CH-8V-4.1A-CJ2305(SOT-23)" device="" value="CJ2305"/>
-<part name="Q4" library="Seeed-Transistor-2016" deviceset="SMD-MOSFET-N-CH-50V-200MA-BSS138W-7-F(SOT-23)" device="" value="BSS138W-7-F"/>
-<part name="R11" library="Seeed-Resistor-2016" deviceset="SMD-RES-47K-5%-1/10W(0603)" device="" value="47K"/>
-<part name="C8" library="Seeed-Capacitor-2016" deviceset="CERAMIC-1UF-25V-10%-X7R(0603)" device="" value="1uf"/>
+<part name="R15" library="Seeed-Resistor-2016" deviceset="SMD-RES-47K-5%-1/10W(0603)" device="" value="47K"/>
+<part name="C9" library="Seeed-Capacitor-2016" deviceset="CERAMIC-1UF-25V-10%-X7R(0603)" device="" value="1uf"/>
 <part name="U$12" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 <part name="U$13" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 <part name="Q7" library="Seeed-Transistor-2016" deviceset="SMD-MOSFET-P-CH-8V-4.1A-CJ2305(SOT-23)" device="" value="CJ2305"/>
-<part name="Q5" library="Seeed-Transistor-2016" deviceset="SMD-MOSFET-N-CH-50V-200MA-BSS138W-7-F(SOT-23)" device="" value="BSS138W-7-F"/>
-<part name="R12" library="Seeed-Resistor-2016" deviceset="SMD-RES-47K-5%-1/10W(0603)" device="" value="47K"/>
+<part name="R16" library="Seeed-Resistor-2016" deviceset="SMD-RES-47K-5%-1/10W(0603)" device="" value="47K"/>
 <part name="C10" library="Seeed-Capacitor-2016" deviceset="CERAMIC-1UF-25V-10%-X7R(0603)" device="" value="1uf"/>
 <part name="U$14" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 <part name="U$15" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 <part name="Q8" library="Seeed-Transistor-2016" deviceset="SMD-MOSFET-P-CH-8V-4.1A-CJ2305(SOT-23)" device="" value="CJ2305"/>
-<part name="Q6" library="Seeed-Transistor-2016" deviceset="SMD-MOSFET-N-CH-50V-200MA-BSS138W-7-F(SOT-23)" device="" value="BSS138W-7-F"/>
-<part name="C9" library="Seeed-Capacitor-2016" deviceset="CERAMIC-100UF-6.3V-20%-X5R(1206)" device="" value="100uf"/>
+<part name="C8" library="Seeed-Capacitor-2016" deviceset="CERAMIC-10UF-25V-10%-X5R(1206)" device="" value="10uf"/>
 <part name="U$16" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 <part name="IRQ" library="scratch-ProtoPads" deviceset="JMP-2-NO" device="" value="NO"/>
-<part name="R10" library="Seeed-Resistor-2016" deviceset="SMD-RES-10K-5%-1/10W(0603)" device="" value="10K 1/10W"/>
+<part name="R14" library="Seeed-Resistor-2016" deviceset="SMD-RES-10K-5%-1/10W(0603)" device="" value="10K 1/10W"/>
 <part name="C6" library="Seeed-Capacitor-2016" deviceset="CERAMIC-1UF-25V-10%-X7R(0603)" device="" value="1uf"/>
 <part name="U$17" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 <part name="C4" library="Seeed-Capacitor-2016" deviceset="CERAMIC-1UF-25V-10%-X7R(0603)" device="" value="1uf"/>
 <part name="U$18" library="PatternAgents-Beautify" deviceset="GND" device=""/>
+<part name="R13" library="Seeed-Resistor-2016" deviceset="SMD-RES-47K-5%-1/10W(0603)" device="" value="47K"/>
+<part name="R12" library="Seeed-Resistor-2016" deviceset="SMD-RES-47K-5%-1/10W(0603)" device="" value="47K"/>
+<part name="R5" library="Seeed-Resistor-2016" deviceset="SMD-RES-47K-5%-1/10W(0603)" device="" value="47K"/>
+<part name="R6" library="Seeed-Resistor-2016" deviceset="SMD-RES-47K-5%-1/10W(0603)" device="" value="47K"/>
+<part name="Q3" library="Seeed-Transistor-2016" deviceset="SMD-MOSFET-N-CH-50V-200MA-BSS138W-7-F(SOT-23)" device="" value="BSS138W-7-F"/>
+<part name="Q4" library="Seeed-Transistor-2016" deviceset="SMD-MOSFET-N-CH-50V-200MA-BSS138W-7-F(SOT-23)" device="" value="BSS138W-7-F"/>
+<part name="Q6" library="Seeed-Transistor-2016" deviceset="SMD-MOSFET-N-CH-50V-200MA-BSS138W-7-F(SOT-23)" device="" value="BSS138W-7-F"/>
+<part name="Q5" library="Seeed-Transistor-2016" deviceset="SMD-MOSFET-N-CH-50V-200MA-BSS138W-7-F(SOT-23)" device="" value="BSS138W-7-F"/>
 </parts>
 <sheets>
 <sheet>
@@ -15816,20 +15820,20 @@ Open Source Sockets for IoT</text>
 <instance part="J4" gate="G$1" x="148.59" y="58.42" rot="MR180"/>
 <instance part="J1" gate="G$1" x="148.59" y="186.69" rot="MR180"/>
 <instance part="J2" gate="G$1" x="148.59" y="143.51" rot="MR180"/>
-<instance part="A1" gate="JMP" x="119.38" y="-91.44"/>
-<instance part="A0" gate="JMP" x="119.38" y="-93.98"/>
+<instance part="A2" gate="JMP" x="119.38" y="-91.44"/>
+<instance part="A1" gate="JMP" x="119.38" y="-93.98"/>
 <instance part="U$5" gate="G$1" x="116.84" y="-106.68"/>
-<instance part="R7" gate="G$1" x="139.7" y="-62.23" smashed="yes" rot="R90">
+<instance part="R9" gate="G$1" x="139.7" y="-62.23" smashed="yes" rot="R90">
 <attribute name="NAME" x="138.2014" y="-66.04" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="137.922" y="-60.96" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R8" gate="G$1" x="144.78" y="-62.23" smashed="yes" rot="R90">
+<instance part="R10" gate="G$1" x="144.78" y="-62.23" smashed="yes" rot="R90">
 <attribute name="NAME" x="143.2814" y="-66.04" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="143.002" y="-60.96" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U$4" gate="G$1" x="-189.23" y="107.95"/>
 <instance part="C5" gate="G$1" x="-189.23" y="120.65" rot="R270"/>
-<instance part="R9" gate="G$1" x="129.54" y="-62.23" smashed="yes" rot="R90">
+<instance part="R11" gate="G$1" x="129.54" y="-62.23" smashed="yes" rot="R90">
 <attribute name="NAME" x="128.0414" y="-66.04" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="127.762" y="-60.96" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -15844,21 +15848,21 @@ Open Source Sockets for IoT</text>
 </instance>
 <instance part="U$3" gate="G$1" x="-125.73" y="-200.66"/>
 <instance part="U$101" gate="G$1" x="-104.14" y="-187.96"/>
-<instance part="$$U$5" gate="G$1" x="-104.14" y="30.48"/>
+<instance part="$$U$2" gate="G$1" x="-104.14" y="30.48"/>
 <instance part="U$102" gate="G$1" x="177.8" y="30.48"/>
-<instance part="$$U$4" gate="G$1" x="177.8" y="-187.96"/>
+<instance part="$$U$1" gate="G$1" x="177.8" y="-187.96"/>
 <instance part="R2" gate="G$1" x="120.65" y="87.63" rot="MR0"/>
-<instance part="R5" gate="G$1" x="160.02" y="-62.23" rot="R90"/>
-<instance part="R6" gate="G$1" x="167.64" y="-62.23" rot="R90"/>
+<instance part="R7" gate="G$1" x="160.02" y="-62.23" rot="R90"/>
+<instance part="R8" gate="G$1" x="167.64" y="-62.23" rot="R90"/>
 <instance part="U1" gate="G$1" x="-140.97" y="113.03"/>
-<instance part="R3" gate="G$1" x="49.53" y="52.07" rot="MR90"/>
+<instance part="R4" gate="G$1" x="49.53" y="54.61" rot="MR90"/>
 <instance part="C1" gate="G$1" x="74.93" y="50.8" rot="MR90"/>
-<instance part="U$7" gate="G$1" x="74.93" y="33.02" rot="MR0"/>
-<instance part="U$8" gate="G$1" x="57.15" y="33.02" rot="MR0"/>
+<instance part="U$7" gate="G$1" x="74.93" y="30.48" rot="MR0"/>
+<instance part="U$8" gate="G$1" x="57.15" y="30.48" rot="MR0"/>
 <instance part="C3" gate="G$1" x="144.78" y="-148.59" rot="R90"/>
 <instance part="U$9" gate="G$1" x="144.78" y="-156.21"/>
-<instance part="R14" gate="G$1" x="120.65" y="129.54" rot="MR0"/>
-<instance part="R13" gate="G$1" x="120.65" y="172.72" rot="MR0"/>
+<instance part="R18" gate="G$1" x="120.65" y="129.54" rot="MR0"/>
+<instance part="R17" gate="G$1" x="120.65" y="172.72" rot="MR0"/>
 <instance part="IO3" gate="G$1" x="137.16" y="172.72"/>
 <instance part="IO11" gate="G$1" x="137.16" y="87.63"/>
 <instance part="IO7" gate="G$1" x="137.16" y="129.54"/>
@@ -15867,57 +15871,61 @@ Open Source Sockets for IoT</text>
 <instance part="L1" gate="L" x="137.16" y="-125.73" rot="R90"/>
 <instance part="L2" gate="L" x="137.16" y="-135.89" rot="R90"/>
 <instance part="Q1" gate="G$1" x="62.23" y="59.69" smashed="yes" rot="MR90">
-<attribute name="NAME" x="58.42" y="64.77" size="1.27" layer="95" ratio="10" rot="MR180"/>
-<attribute name="VALUE" x="57.15" y="67.31" size="1.27" layer="96" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="55.88" y="62.23" size="1.27" layer="95" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="54.61" y="64.77" size="1.27" layer="96" ratio="10" rot="MR180"/>
 </instance>
-<instance part="Q3" gate="G$1" x="57.15" y="39.37" smashed="yes" rot="MR180">
-<attribute name="NAME" x="60.96" y="39.37" size="1.27" layer="95" ratio="10" rot="MR180"/>
-<attribute name="VALUE" x="59.69" y="41.91" size="1.27" layer="96" ratio="10" rot="MR180"/>
-</instance>
-<instance part="R4" gate="G$1" x="49.53" y="96.52" rot="MR90"/>
+<instance part="R3" gate="G$1" x="49.53" y="99.06" rot="MR90"/>
 <instance part="C2" gate="G$1" x="74.93" y="95.25" rot="MR90"/>
-<instance part="U$10" gate="G$1" x="74.93" y="77.47" rot="MR0"/>
-<instance part="U$11" gate="G$1" x="57.15" y="77.47" rot="MR0"/>
+<instance part="U$10" gate="G$1" x="74.93" y="74.93" rot="MR0"/>
+<instance part="U$11" gate="G$1" x="57.15" y="74.93" rot="MR0"/>
 <instance part="Q2" gate="G$1" x="62.23" y="104.14" smashed="yes" rot="MR90">
-<attribute name="NAME" x="58.42" y="109.22" size="1.27" layer="95" ratio="10" rot="MR180"/>
-<attribute name="VALUE" x="57.15" y="111.76" size="1.27" layer="96" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="55.88" y="106.68" size="1.27" layer="95" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="54.61" y="109.22" size="1.27" layer="96" ratio="10" rot="MR180"/>
 </instance>
-<instance part="Q4" gate="G$1" x="57.15" y="83.82" smashed="yes" rot="MR180">
-<attribute name="NAME" x="60.96" y="83.82" size="1.27" layer="95" ratio="10" rot="MR180"/>
-<attribute name="VALUE" x="59.69" y="86.36" size="1.27" layer="96" ratio="10" rot="MR180"/>
-</instance>
-<instance part="R11" gate="G$1" x="49.53" y="180.34" rot="MR90"/>
-<instance part="C8" gate="G$1" x="74.93" y="179.07" rot="MR90"/>
-<instance part="U$12" gate="G$1" x="74.93" y="161.29" rot="MR0"/>
-<instance part="U$13" gate="G$1" x="57.15" y="161.29" rot="MR0"/>
+<instance part="R15" gate="G$1" x="49.53" y="182.88" rot="MR90"/>
+<instance part="C9" gate="G$1" x="74.93" y="179.07" rot="MR90"/>
+<instance part="U$12" gate="G$1" x="74.93" y="158.75" rot="MR0"/>
+<instance part="U$13" gate="G$1" x="57.15" y="158.75" rot="MR0"/>
 <instance part="Q7" gate="G$1" x="62.23" y="187.96" smashed="yes" rot="MR90">
 <attribute name="NAME" x="58.42" y="193.04" size="1.27" layer="95" ratio="10" rot="MR180"/>
 <attribute name="VALUE" x="57.15" y="195.58" size="1.27" layer="96" ratio="10" rot="MR180"/>
 </instance>
-<instance part="Q5" gate="G$1" x="57.15" y="167.64" smashed="yes" rot="MR180">
-<attribute name="NAME" x="60.96" y="167.64" size="1.27" layer="95" ratio="10" rot="MR180"/>
-<attribute name="VALUE" x="59.69" y="170.18" size="1.27" layer="96" ratio="10" rot="MR180"/>
-</instance>
-<instance part="R12" gate="G$1" x="49.53" y="137.16" rot="MR90"/>
+<instance part="R16" gate="G$1" x="49.53" y="139.7" rot="MR90"/>
 <instance part="C10" gate="G$1" x="74.93" y="135.89" rot="MR90"/>
-<instance part="U$14" gate="G$1" x="74.93" y="118.11" rot="MR0"/>
-<instance part="U$15" gate="G$1" x="57.15" y="118.11" rot="MR0"/>
+<instance part="U$14" gate="G$1" x="74.93" y="115.57" rot="MR0"/>
+<instance part="U$15" gate="G$1" x="57.15" y="115.57" rot="MR0"/>
 <instance part="Q8" gate="G$1" x="62.23" y="144.78" smashed="yes" rot="MR90">
-<attribute name="NAME" x="58.42" y="149.86" size="1.27" layer="95" ratio="10" rot="MR180"/>
-<attribute name="VALUE" x="57.15" y="152.4" size="1.27" layer="96" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="55.88" y="147.32" size="1.27" layer="95" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="54.61" y="149.86" size="1.27" layer="96" ratio="10" rot="MR180"/>
 </instance>
-<instance part="Q6" gate="G$1" x="57.15" y="124.46" smashed="yes" rot="MR180">
-<attribute name="NAME" x="60.96" y="124.46" size="1.27" layer="95" ratio="10" rot="MR180"/>
-<attribute name="VALUE" x="59.69" y="127" size="1.27" layer="96" ratio="10" rot="MR180"/>
-</instance>
-<instance part="C9" gate="G$1" x="156.21" y="-148.59" rot="R90"/>
+<instance part="C8" gate="G$1" x="156.21" y="-148.59" rot="R90"/>
 <instance part="U$16" gate="G$1" x="156.21" y="-156.21"/>
 <instance part="IRQ" gate="JMP" x="119.38" y="-86.36"/>
-<instance part="R10" gate="G$1" x="152.4" y="-62.23" rot="R90"/>
+<instance part="R14" gate="G$1" x="152.4" y="-62.23" rot="R90"/>
 <instance part="C6" gate="G$1" x="-181.61" y="120.65" rot="MR90"/>
 <instance part="U$17" gate="G$1" x="-181.61" y="107.95"/>
 <instance part="C4" gate="G$1" x="137.16" y="-149.86" rot="MR90"/>
 <instance part="U$18" gate="G$1" x="137.16" y="-156.21"/>
+<instance part="R13" gate="G$1" x="49.53" y="165.1" rot="MR90"/>
+<instance part="R12" gate="G$1" x="49.53" y="121.92" rot="MR90"/>
+<instance part="R5" gate="G$1" x="49.53" y="81.28" rot="MR90"/>
+<instance part="R6" gate="G$1" x="49.53" y="36.83" rot="MR90"/>
+<instance part="Q3" gate="G$1" x="57.15" y="41.91" smashed="yes">
+<attribute name="NAME" x="60.96" y="41.91" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="59.69" y="39.37" size="1.27" layer="96" ratio="10"/>
+</instance>
+<instance part="Q4" gate="G$1" x="57.15" y="86.36" smashed="yes">
+<attribute name="NAME" x="60.96" y="86.36" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="59.69" y="83.82" size="1.27" layer="96" ratio="10"/>
+</instance>
+<instance part="Q6" gate="G$1" x="57.15" y="127" smashed="yes">
+<attribute name="NAME" x="60.96" y="127" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="59.69" y="124.46" size="1.27" layer="96" ratio="10"/>
+</instance>
+<instance part="Q5" gate="G$1" x="57.15" y="170.18" smashed="yes">
+<attribute name="NAME" x="60.96" y="170.18" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="59.69" y="167.64" size="1.27" layer="96" ratio="10"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15976,10 +15984,10 @@ Open Source Sockets for IoT</text>
 <pinref part="U1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="A1" gate="JMP" pin="1"/>
+<pinref part="A2" gate="JMP" pin="1"/>
 <wire x1="119.38" y1="-91.44" x2="116.84" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="-91.44" x2="116.84" y2="-93.98" width="0.1524" layer="91"/>
-<pinref part="A0" gate="JMP" pin="1"/>
+<pinref part="A1" gate="JMP" pin="1"/>
 <wire x1="116.84" y1="-93.98" x2="116.84" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="-93.98" x2="116.84" y2="-93.98" width="0.1524" layer="91"/>
 <junction x="116.84" y="-93.98"/>
@@ -16006,12 +16014,17 @@ Open Source Sockets for IoT</text>
 <segment>
 <pinref part="U$7" gate="G$1" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="74.93" y1="33.02" x2="74.93" y2="46.99" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="30.48" x2="74.93" y2="46.99" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$8" gate="G$1" pin="GND"/>
-<wire x1="57.15" y1="33.02" x2="57.15" y2="34.29" width="0.1524" layer="91"/>
-<pinref part="Q3" gate="G$1" pin="D"/>
+<wire x1="57.15" y1="30.48" x2="57.15" y2="31.75" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="57.15" y1="31.75" x2="57.15" y2="36.83" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="33.02" x2="49.53" y2="31.75" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="31.75" x2="57.15" y2="31.75" width="0.1524" layer="91"/>
+<junction x="57.15" y="31.75"/>
+<pinref part="Q3" gate="G$1" pin="S"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -16036,35 +16049,50 @@ Open Source Sockets for IoT</text>
 <segment>
 <pinref part="U$10" gate="G$1" pin="GND"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="74.93" y1="77.47" x2="74.93" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="74.93" x2="74.93" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$11" gate="G$1" pin="GND"/>
-<wire x1="57.15" y1="77.47" x2="57.15" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="Q4" gate="G$1" pin="D"/>
+<wire x1="57.15" y1="74.93" x2="57.15" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="57.15" y1="76.2" x2="57.15" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="77.47" x2="49.53" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="76.2" x2="57.15" y2="76.2" width="0.1524" layer="91"/>
+<junction x="57.15" y="76.2"/>
+<pinref part="Q4" gate="G$1" pin="S"/>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="GND"/>
-<pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="74.93" y1="161.29" x2="74.93" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="74.93" y1="158.75" x2="74.93" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$13" gate="G$1" pin="GND"/>
-<wire x1="57.15" y1="161.29" x2="57.15" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="G$1" pin="D"/>
+<wire x1="57.15" y1="158.75" x2="57.15" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="57.15" y1="160.02" x2="57.15" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="161.29" x2="49.53" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="160.02" x2="57.15" y2="160.02" width="0.1524" layer="91"/>
+<junction x="57.15" y="160.02"/>
+<pinref part="Q5" gate="G$1" pin="S"/>
 </segment>
 <segment>
 <pinref part="U$14" gate="G$1" pin="GND"/>
 <pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="74.93" y1="118.11" x2="74.93" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="115.57" x2="74.93" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$15" gate="G$1" pin="GND"/>
-<wire x1="57.15" y1="118.11" x2="57.15" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="Q6" gate="G$1" pin="D"/>
+<wire x1="57.15" y1="115.57" x2="57.15" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="57.15" y1="116.84" x2="57.15" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="118.11" x2="49.53" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="116.84" x2="57.15" y2="116.84" width="0.1524" layer="91"/>
+<junction x="57.15" y="116.84"/>
+<pinref part="Q6" gate="G$1" pin="S"/>
 </segment>
 <segment>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="U$16" gate="G$1" pin="GND"/>
 <wire x1="156.21" y1="-152.4" x2="156.21" y2="-156.21" width="0.1524" layer="91"/>
 </segment>
@@ -16108,17 +16136,17 @@ Open Source Sockets for IoT</text>
 <junction x="137.16" y="-142.24"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="-58.42" x2="139.7" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-50.8" x2="144.78" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="-58.42" x2="144.78" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="144.78" y="-50.8"/>
 <wire x1="144.78" y1="-50.8" x2="152.4" y2="-50.8" width="0.1524" layer="91"/>
 <label x="185.42" y="-50.8" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="-50.8" x2="160.02" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-50.8" x2="167.64" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="-50.8" x2="185.42" y2="-50.8" width="0.1524" layer="91"/>
@@ -16132,7 +16160,7 @@ Open Source Sockets for IoT</text>
 <junction x="160.02" y="-50.8"/>
 <wire x1="167.64" y1="-58.42" x2="167.64" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="167.64" y="-50.8"/>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="-58.42" x2="152.4" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="152.4" y="-50.8"/>
 </segment>
@@ -16144,9 +16172,9 @@ Open Source Sockets for IoT</text>
 <pinref part="U1" gate="G$1" pin="ADDR0"/>
 </segment>
 <segment>
-<pinref part="A0" gate="JMP" pin="2"/>
+<pinref part="A1" gate="JMP" pin="2"/>
 <wire x1="121.92" y1="-93.98" x2="144.78" y2="-93.98" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="-93.98" x2="185.42" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="-66.04" x2="144.78" y2="-93.98" width="0.1524" layer="91"/>
 <junction x="144.78" y="-93.98"/>
@@ -16160,9 +16188,9 @@ Open Source Sockets for IoT</text>
 <pinref part="U1" gate="G$1" pin="ADDR1"/>
 </segment>
 <segment>
-<pinref part="A1" gate="JMP" pin="2"/>
+<pinref part="A2" gate="JMP" pin="2"/>
 <wire x1="121.92" y1="-91.44" x2="139.7" y2="-91.44" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="-91.44" x2="185.42" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-66.04" x2="139.7" y2="-91.44" width="0.1524" layer="91"/>
 <junction x="139.7" y="-91.44"/>
@@ -16173,7 +16201,7 @@ Open Source Sockets for IoT</text>
 <segment>
 <wire x1="121.92" y1="-76.2" x2="129.54" y2="-76.2" width="0.1524" layer="91"/>
 <label x="185.42" y="-76.2" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="129.54" y1="-76.2" x2="185.42" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="-66.04" x2="129.54" y2="-76.2" width="0.1524" layer="91"/>
 <junction x="129.54" y="-76.2"/>
@@ -16201,7 +16229,7 @@ Open Source Sockets for IoT</text>
 </segment>
 <segment>
 <label x="185.42" y="-72.39" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="-72.39" x2="185.42" y2="-72.39" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="-66.04" x2="167.64" y2="-72.39" width="0.1524" layer="91"/>
 </segment>
@@ -16219,7 +16247,7 @@ Open Source Sockets for IoT</text>
 </segment>
 <segment>
 <label x="185.42" y="-69.85" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="-69.85" x2="185.42" y2="-69.85" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-66.04" x2="160.02" y2="-69.85" width="0.1524" layer="91"/>
 </segment>
@@ -16244,42 +16272,42 @@ Open Source Sockets for IoT</text>
 </segment>
 <segment>
 <wire x1="57.15" y1="59.69" x2="49.53" y2="59.69" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="49.53" y1="59.69" x2="35.56" y2="59.69" width="0.1524" layer="91"/>
-<wire x1="49.53" y1="55.88" x2="49.53" y2="59.69" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="58.42" x2="49.53" y2="59.69" width="0.1524" layer="91"/>
 <junction x="49.53" y="59.69"/>
 <label x="35.56" y="59.69" size="1.27" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
 </segment>
 <segment>
 <wire x1="57.15" y1="104.14" x2="49.53" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="49.53" y1="104.14" x2="35.56" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="49.53" y1="100.33" x2="49.53" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="102.87" x2="49.53" y2="104.14" width="0.1524" layer="91"/>
 <junction x="49.53" y="104.14"/>
 <label x="35.56" y="104.14" size="1.27" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 <pinref part="Q2" gate="G$1" pin="S"/>
 </segment>
 <segment>
 <wire x1="57.15" y1="187.96" x2="49.53" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="49.53" y1="187.96" x2="35.56" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="49.53" y1="184.15" x2="49.53" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="186.69" x2="49.53" y2="187.96" width="0.1524" layer="91"/>
 <junction x="49.53" y="187.96"/>
 <label x="35.56" y="187.96" size="1.27" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 <pinref part="Q7" gate="G$1" pin="S"/>
 </segment>
 <segment>
 <wire x1="57.15" y1="144.78" x2="49.53" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="49.53" y1="144.78" x2="35.56" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="49.53" y1="140.97" x2="49.53" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="143.51" x2="49.53" y2="144.78" width="0.1524" layer="91"/>
 <junction x="49.53" y="144.78"/>
 <label x="35.56" y="144.78" size="1.27" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
 <pinref part="Q8" gate="G$1" pin="S"/>
 </segment>
 <segment>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="156.21" y1="-130.81" x2="156.21" y2="-144.78" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="-130.81" x2="144.78" y2="-130.81" width="0.1524" layer="91"/>
@@ -16338,8 +16366,12 @@ Open Source Sockets for IoT</text>
 <label x="-110.49" y="128.27" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<label x="38.1" y="167.64" size="1.27" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<wire x1="38.1" y1="167.64" x2="52.07" y2="167.64" width="0.1524" layer="91"/>
+<label x="38.1" y="170.18" size="1.27" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+<wire x1="38.1" y1="170.18" x2="49.53" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="49.53" y1="170.18" x2="52.07" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="168.91" x2="49.53" y2="170.18" width="0.1524" layer="91"/>
+<junction x="49.53" y="170.18"/>
 <pinref part="Q5" gate="G$1" pin="G"/>
 </segment>
 </net>
@@ -16350,7 +16382,7 @@ Open Source Sockets for IoT</text>
 <label x="-110.49" y="125.73" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="172.72" x2="106.68" y2="172.72" width="0.1524" layer="91"/>
 <label x="106.68" y="172.72" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -16388,8 +16420,12 @@ Open Source Sockets for IoT</text>
 <label x="-110.49" y="118.11" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<label x="38.1" y="124.46" size="1.27" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<wire x1="38.1" y1="124.46" x2="52.07" y2="124.46" width="0.1524" layer="91"/>
+<label x="38.1" y="127" size="1.27" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+<wire x1="38.1" y1="127" x2="49.53" y2="127" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="49.53" y1="127" x2="52.07" y2="127" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="125.73" x2="49.53" y2="127" width="0.1524" layer="91"/>
+<junction x="49.53" y="127"/>
 <pinref part="Q6" gate="G$1" pin="G"/>
 </segment>
 </net>
@@ -16400,7 +16436,7 @@ Open Source Sockets for IoT</text>
 <label x="-110.49" y="115.57" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="129.54" x2="106.68" y2="129.54" width="0.1524" layer="91"/>
 <label x="106.68" y="129.54" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -16438,8 +16474,12 @@ Open Source Sockets for IoT</text>
 <label x="-110.49" y="102.87" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<label x="38.1" y="83.82" size="1.27" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<wire x1="38.1" y1="83.82" x2="52.07" y2="83.82" width="0.1524" layer="91"/>
+<label x="38.1" y="86.36" size="1.27" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+<wire x1="38.1" y1="86.36" x2="49.53" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="49.53" y1="86.36" x2="52.07" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="85.09" x2="49.53" y2="86.36" width="0.1524" layer="91"/>
+<junction x="49.53" y="86.36"/>
 <pinref part="Q4" gate="G$1" pin="G"/>
 </segment>
 </net>
@@ -16488,8 +16528,12 @@ Open Source Sockets for IoT</text>
 <label x="-110.49" y="92.71" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<label x="38.1" y="39.37" size="1.27" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<wire x1="38.1" y1="39.37" x2="52.07" y2="39.37" width="0.1524" layer="91"/>
+<label x="38.1" y="41.91" size="1.27" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+<wire x1="38.1" y1="41.91" x2="49.53" y2="41.91" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="49.53" y1="41.91" x2="52.07" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="40.64" x2="49.53" y2="41.91" width="0.1524" layer="91"/>
+<junction x="49.53" y="41.91"/>
 <pinref part="Q3" gate="G$1" pin="G"/>
 </segment>
 </net>
@@ -16514,7 +16558,7 @@ Open Source Sockets for IoT</text>
 <segment>
 <pinref part="IRQ" gate="JMP" pin="2"/>
 <wire x1="121.92" y1="-86.36" x2="152.4" y2="-86.36" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="-86.36" x2="185.42" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="-66.04" x2="152.4" y2="-86.36" width="0.1524" layer="91"/>
 <junction x="152.4" y="-86.36"/>
@@ -16530,27 +16574,27 @@ Open Source Sockets for IoT</text>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="57.15" y1="46.99" x2="49.53" y2="46.99" width="0.1524" layer="91"/>
-<wire x1="49.53" y1="46.99" x2="49.53" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="57.15" y1="44.45" x2="57.15" y2="46.99" width="0.1524" layer="91"/>
-<junction x="57.15" y="46.99"/>
-<pinref part="Q3" gate="G$1" pin="S"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="57.15" y1="49.53" x2="49.53" y2="49.53" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="49.53" x2="49.53" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="57.15" y1="46.99" x2="57.15" y2="49.53" width="0.1524" layer="91"/>
+<junction x="57.15" y="49.53"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="62.23" y1="54.61" x2="62.23" y2="46.99" width="0.1524" layer="91"/>
-<wire x1="62.23" y1="46.99" x2="57.15" y2="46.99" width="0.1524" layer="91"/>
+<wire x1="62.23" y1="54.61" x2="62.23" y2="49.53" width="0.1524" layer="91"/>
+<wire x1="62.23" y1="49.53" x2="57.15" y2="49.53" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="LED2" class="0">
 <segment>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="129.54" x2="133.35" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="IO7" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="LED3" class="0">
 <segment>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="172.72" x2="133.35" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="IO3" gate="G$1" pin="+"/>
 </segment>
@@ -16564,41 +16608,41 @@ Open Source Sockets for IoT</text>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="57.15" y1="91.44" x2="49.53" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="49.53" y1="91.44" x2="49.53" y2="92.71" width="0.1524" layer="91"/>
-<wire x1="57.15" y1="88.9" x2="57.15" y2="91.44" width="0.1524" layer="91"/>
-<junction x="57.15" y="91.44"/>
-<pinref part="Q4" gate="G$1" pin="S"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="57.15" y1="93.98" x2="49.53" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="93.98" x2="49.53" y2="95.25" width="0.1524" layer="91"/>
+<wire x1="57.15" y1="91.44" x2="57.15" y2="93.98" width="0.1524" layer="91"/>
+<junction x="57.15" y="93.98"/>
 <pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="62.23" y1="99.06" x2="62.23" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="62.23" y1="91.44" x2="57.15" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="62.23" y1="99.06" x2="62.23" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="62.23" y1="93.98" x2="57.15" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="Q4" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="57.15" y1="175.26" x2="49.53" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="49.53" y1="175.26" x2="49.53" y2="176.53" width="0.1524" layer="91"/>
-<wire x1="57.15" y1="172.72" x2="57.15" y2="175.26" width="0.1524" layer="91"/>
-<junction x="57.15" y="175.26"/>
-<pinref part="Q5" gate="G$1" pin="S"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="57.15" y1="177.8" x2="49.53" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="177.8" x2="49.53" y2="179.07" width="0.1524" layer="91"/>
+<wire x1="57.15" y1="175.26" x2="57.15" y2="177.8" width="0.1524" layer="91"/>
+<junction x="57.15" y="177.8"/>
 <pinref part="Q7" gate="G$1" pin="G"/>
-<wire x1="62.23" y1="182.88" x2="62.23" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="62.23" y1="175.26" x2="57.15" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="62.23" y1="182.88" x2="62.23" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="62.23" y1="177.8" x2="57.15" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="Q5" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="57.15" y1="132.08" x2="49.53" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="49.53" y1="132.08" x2="49.53" y2="133.35" width="0.1524" layer="91"/>
-<wire x1="57.15" y1="129.54" x2="57.15" y2="132.08" width="0.1524" layer="91"/>
-<junction x="57.15" y="132.08"/>
-<pinref part="Q6" gate="G$1" pin="S"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<wire x1="57.15" y1="134.62" x2="49.53" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="134.62" x2="49.53" y2="135.89" width="0.1524" layer="91"/>
+<wire x1="57.15" y1="132.08" x2="57.15" y2="134.62" width="0.1524" layer="91"/>
+<junction x="57.15" y="134.62"/>
 <pinref part="Q8" gate="G$1" pin="G"/>
-<wire x1="62.23" y1="139.7" x2="62.23" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="62.23" y1="132.08" x2="57.15" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="62.23" y1="139.7" x2="62.23" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="62.23" y1="134.62" x2="57.15" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="Q6" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="!XINT" class="0">
@@ -16638,7 +16682,7 @@ Open Source Sockets for IoT</text>
 <label x="106.68" y="187.96" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="74.93" y1="182.88" x2="74.93" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="74.93" y1="187.96" x2="67.31" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="74.93" y1="187.96" x2="82.55" y2="187.96" width="0.1524" layer="91"/>
